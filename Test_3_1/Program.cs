@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Linq;
 
 namespace Test_3_1
 {
@@ -87,9 +88,36 @@ namespace Test_3_1
             Console.WriteLine(isInt);*/
 
             //practice_10
-            /*int year = 2024;
+            /*int year = 2001;
             string isLeapYear = year % 400 == 0 || (year % 4 == 0) && (year % 100 != 0) ? "是闰年" : "不是闰年";
             Console.WriteLine(isLeapYear);*/
+
+            //practice_11
+            /*Console.WriteLine("请输入你喜欢的运动");
+            string sport = Console.ReadLine();
+            Console.WriteLine("哈哈，好巧，我也喜欢{0}运动",sport);*/
+
+            //practice_12
+            /*Console.WriteLine("请输入用户名");
+            string nameInput = Console.ReadLine();
+            Console.WriteLine("请输入年龄");
+            string ageInput = Console.ReadLine();
+            Console.WriteLine("请输入班级");
+            string classInput = Console.ReadLine();
+            Console.WriteLine( "用户名：{0}，年龄：{1}，班级：{2}", nameInput, ageInput, classInput);*/
+
+            //practice_13
+            /*Console.WriteLine("请输入姓名");
+            string name = Console.ReadLine();
+            Console.WriteLine("请输入语文成绩");
+            double chineseScoreInput = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("请输入数学成绩");
+            double mathScoreInput = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("请输入英语成绩");
+            double englishScoreInput = Convert.ToDouble(Console.ReadLine());
+            double totalScore = chineseScoreInput + mathScoreInput + englishScoreInput;
+            double averageScore = totalScore / 3.0;
+            Console.WriteLine("{0}，你的总成绩为{1}分，平均成绩为{2}分",name,totalScore,averageScore);*/
         }
     }
 }

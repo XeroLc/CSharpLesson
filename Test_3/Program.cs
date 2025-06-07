@@ -99,6 +99,14 @@ namespace Test_3
             int b = 10;
             Console.WriteLine(b > 0 || ++b < 20);
             Console.WriteLine("a:" + a + ",b:" + b);*/
+
+            //字符串格式化输出
+            //字符串格式化输出是指将字符串中的占位符替换为实际的值
+            //如Console.WriteLine("姓名：{0}年龄：{1}",name,age);
+            //占位符的格式是"{n}"，其中n是占位符的索引，从0开始
+            //从""后第一个逗号开始，后面的参数依次对应占位符的索引
+            /*int age = 18;
+            Console.WriteLine("我现在的年龄是{0}，十年后是{1}",age,age+10);*/
         }
     } 
 }
