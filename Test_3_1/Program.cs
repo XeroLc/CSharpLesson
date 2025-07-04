@@ -88,7 +88,7 @@ namespace Test_3_1
             Console.WriteLine(isInt);*/
 
             //practice_10
-            /*int year = 2001;
+            /*int year = int.Parse(Console.ReadLine());
             string isLeapYear = year % 400 == 0 || (year % 4 == 0) && (year % 100 != 0) ? "是闰年" : "不是闰年";
             Console.WriteLine(isLeapYear);*/
 
@@ -110,14 +110,16 @@ namespace Test_3_1
             /*Console.WriteLine("请输入姓名");
             string name = Console.ReadLine();
             Console.WriteLine("请输入语文成绩");
-            double chineseScoreInput = Convert.ToDouble(Console.ReadLine());
+            int chineseScoreInput = int.Parse(Console.ReadLine());
             Console.WriteLine("请输入数学成绩");
-            double mathScoreInput = Convert.ToDouble(Console.ReadLine());
+            int mathScoreInput = int.Parse(Console.ReadLine());
             Console.WriteLine("请输入英语成绩");
-            double englishScoreInput = Convert.ToDouble(Console.ReadLine());
-            double totalScore = chineseScoreInput + mathScoreInput + englishScoreInput;
-            double averageScore = totalScore / 3.0;
-            Console.WriteLine("{0}，你的总成绩为{1}分，平均成绩为{2}分",name,totalScore,averageScore);*/
+            int englishScoreInput = int.Parse(Console.ReadLine());
+            int totalScore = chineseScoreInput + mathScoreInput + englishScoreInput;
+            int averageScore = totalScore / 3;
+            Console.WriteLine("{0}，你的总成绩为{1}分，平均成绩为{2}分", name, totalScore, averageScore);*/
+
+            
         }
     }
 }
