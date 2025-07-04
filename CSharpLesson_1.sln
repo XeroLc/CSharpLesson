@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_2_变量常量", "Test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_2_1", "Test_2_1\Test_2_1.csproj", "{11360551-6919-42CF-8B7E-E5A182160D77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_3_运算符", "Test_3\Test_3_运算符.csproj", "{50006169-F621-4955-A3EA-E7A3727C98AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_3_运算符", "Test_3\Test_3_运算符.csproj", "{50006169-F621-4955-A3EA-E7A3727C98AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_3_1", "Test_3_1\Test_3_1.csproj", "{AB77D143-55D3-48E9-AD7C-2E3167B7556E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_3_1", "Test_3_1\Test_3_1.csproj", "{AB77D143-55D3-48E9-AD7C-2E3167B7556E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_4_数据类型转换", "Test_4_显示\Test_4_数据类型转换.csproj", "{71734DF4-DCE6-42AC-B962-F16A2CFE12AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_4_1", "Test_4_1\Test_4_1.csproj", "{06DEF433-C874-4DFC-8AF1-AC72E2FE285A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{AB77D143-55D3-48E9-AD7C-2E3167B7556E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB77D143-55D3-48E9-AD7C-2E3167B7556E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB77D143-55D3-48E9-AD7C-2E3167B7556E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71734DF4-DCE6-42AC-B962-F16A2CFE12AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71734DF4-DCE6-42AC-B962-F16A2CFE12AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71734DF4-DCE6-42AC-B962-F16A2CFE12AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71734DF4-DCE6-42AC-B962-F16A2CFE12AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DEF433-C874-4DFC-8AF1-AC72E2FE285A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DEF433-C874-4DFC-8AF1-AC72E2FE285A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DEF433-C874-4DFC-8AF1-AC72E2FE285A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DEF433-C874-4DFC-8AF1-AC72E2FE285A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
